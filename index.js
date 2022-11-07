@@ -20,6 +20,6 @@ app.post("/b/:num", (req,res) => {
     res.send(req.params.num);
 })
 
-app.listen(3000, () => {
+app.listen(80, () => {
     console.log("server is running")
 })
